@@ -1,0 +1,41 @@
+# Node & dependencies
+node_modules/
+.pnpm-store/
+
+# Turborepo & TypeScript cache
+.turbo/
+*.tsbuildinfo
+
+# Production builds
+dist/
+build/
+.next/
+out/
+
+# Mobile / Expo
+.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System
+.DS_Store
+Thumbs.db
+
